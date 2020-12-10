@@ -31,6 +31,6 @@ function giaiThua(num) {
 }
 
 function gtButton() {
-    expression = giaiThua(eval(expression));
-    cal();
+  expression = giaiThua(eval(expression));
+  cal();
 }
