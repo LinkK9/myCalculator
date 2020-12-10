@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator-screen" id= "calculator-screen">0</div>
+        <div class="calculator-keys">
+
+            <button type="button" class="operator" onclick="pushText('+')" >+</button>
+            <button type="button" class="operator" onclick="pushText('-')" >-</button>
+            <button type="button" class="operator" onclick="pushText('*')" >&times;</button>
+            <button type="button" class="operator" onclick="pushText('/')" >&divide;</button>
+
+            <button type="button" onclick="pushText('7')" >7</button>
+            <button type="button" onclick="pushText('8')" >8</button>
+            <button type="button" onclick="pushText('9')" >9</button>
+
+
+            <button type="button" onclick="pushText('4')" >4</button>
+            <button type="button" onclick="pushText('5')" >5</button>
+            <button type="button" onclick="pushText('6')" >6</button>
+
+
+            <button type="button" onclick="pushText('1')" >1</button>
+            <button type="button" onclick="pushText('2')" >2</button>
+            <button type="button" onclick="pushText('3')" >3</button>
+
+
+            <button type="button" onclick="pushText('0')" >0</button>
+            <button type="button" class="decimal" onclick="pushText('.')" >.</button>
+            <button type="button" class="all-clear" onclick="clearScreen()">AC</button>
+
+            <button type="button" class="equal-sign" onclick="cal()">=</button>
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
