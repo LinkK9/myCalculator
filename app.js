@@ -15,7 +15,7 @@ function cal() {
 }
 function clearScreen() {
   document.getElementById("calculator-screen").innerText = "0";
-  expression = "0";
+  expression = "";
   screenView = "";
 }
 function sqrt() {
@@ -29,7 +29,6 @@ function giaiThua(num) {
   }
   return gt;
 }
-
 function gtButton() {
   expression = giaiThua(eval(expression));
   cal();
