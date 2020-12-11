@@ -9,6 +9,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 .calculator {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -17,6 +19,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
+  user-select: none;
 }
 
 .calculator-screen {
